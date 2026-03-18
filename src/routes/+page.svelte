@@ -27,8 +27,8 @@
 		font-family: system-ui, sans-serif;
 		margin: 0;
 		padding: 2rem;
-		background: #0a0a0a;
-		color: #ededed;
+		background: #1a0505;
+		color: #ffcccc;
 	}
 
 	main {
@@ -41,7 +41,7 @@
 	}
 
 	p {
-		color: #888;
+		color: #cc8888;
 		margin-bottom: 2rem;
 	}
 
@@ -56,15 +56,15 @@
 		width: 40px;
 		height: 40px;
 		border-radius: 8px;
-		border: 1px solid #333;
-		background: #111;
-		color: #ededed;
+		border: 1px solid #661111;
+		background: #330000;
+		color: #ffcccc;
 		font-size: 1.2rem;
 		cursor: pointer;
 	}
 
 	.counter button:hover {
-		background: #222;
+		background: #550000;
 	}
 
 	.counter span {
@@ -76,11 +76,11 @@
 
 	h2 {
 		font-size: 1.2rem;
-		color: #aaa;
+		color: #dd9999;
 	}
 
 	ul {
-		color: #888;
+		color: #cc8888;
 		line-height: 1.8;
 	}
 </style>
