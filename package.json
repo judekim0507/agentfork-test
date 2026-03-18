@@ -4,8 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev --host 0.0.0.0",
-    "prepare": "svelte-kit sync || true",
+    "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview"
   },
