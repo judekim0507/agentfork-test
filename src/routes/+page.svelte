@@ -7,7 +7,7 @@
 	<p>A simple SvelteKit app for testing AgentFork.</p>
 
 	<div class="counter">
-		<button onclick={() => count--}>-</button>
+		<button onclick={() => count = Math.max(0, count - 1)}>-</button>
 		<span>{count}</span>
 		<button onclick={() => count++}>+</button>
 	</div>
